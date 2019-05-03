@@ -1,6 +1,6 @@
 <template lang="pug">
     #app
-        img(src='./assets/logo.png')
+        img(src='https://camolio.github.io/angelmusic/dist/logo.png')
         h1 angelMusic
         select(v-model="selectedCountry")
             option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
